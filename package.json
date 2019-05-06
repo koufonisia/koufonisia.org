@@ -2,7 +2,7 @@
     "name": "koufonisia.org",
     "version": "1.0.0",
     "description": "",
-    "main": "app.js",
+    "main": "server.js",
     "scripts": {
         "start": "nodemon server.js",
         "dev": "nodemon server.js -e js,hbs"
