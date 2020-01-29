@@ -5,7 +5,9 @@
     "main": "server.js",
     "scripts": {
         "start": "nodemon server.js",
-        "dev": "nodemon server.js -e js,hbs"
+        "dev": "nodemon server.js -e js,hbs",    
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "keywords": [],
     "author": "George Simos",
@@ -15,5 +17,8 @@
         "hbs": "^4.0.3",
         "request": "^2.88.0",
         "nodemon": "^1.18.11"
-    }
+    },
+    "devDependencies": {
+        "gh-pages": "^2.2.0",
+  }
 }
