@@ -5,6 +5,6 @@ koufonisia.org
 Koufonisia.org landing page
 </p>
 
-
+<img src="https://github.com/koufonisia/assets/blob/master/images/landing.png" />
 
 
